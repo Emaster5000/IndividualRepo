@@ -1,1 +1,7 @@
+#include <iostream>
+using namespace std;
 
+int main() {
+  string weapon[] = {".52 gal", ".96 gal", "aerospray MG", "aerospray RG", "ballpoint splatling", "big swig roller"};
+  cout << "Welcome to [insert better name here], please guess your first weapon";
+}
