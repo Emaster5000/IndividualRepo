@@ -1,2 +1,2 @@
-# Puzzle Game Remix
-Some puzzle game but with a twist added, like how I did explosion sudoku, I don't really know what puzzle game right now
+# Splatoon Weapon guessing game
+Built sort of like wordle, but more like hunters journle (link to that: https://hunters-journle.web.app/game)
