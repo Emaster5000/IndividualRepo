@@ -2,6 +2,62 @@
 using namespace std;
 
 int main() {
-  string weapon[] = {".52 gal", ".96 gal", "aerospray MG", "aerospray RG", "ballpoint splatling", "big swig roller"};
-  cout << "Welcome to [insert better name here], please guess your first weapon";
+  // string shooters[] = {".52 gal", ".96 gal", "aerospray mg", "aerospray rg", "custom splattershot jr.", "forge splattershot pro", "h-3 nozzlenose", "jet squelcher", "l-3 nozzlenose", "n-zap 85", "splash-o-matic", "splattershot", "splattershot jr.", "splattershot nova", "splattershot pro", "sploosh-o-matic", "squeezer", "tentatek splattershot"};
+  string heavy[] = {"heavy splatling", "sprinkler", "wave breaker", "200", "splatling", "4"};
+  string mini[] = {"mini splatling", "burst bomb", "ultra stamp", "180", "splatling", "12"};
+  string zimi[] = {"zink mini splatling", "toxic mist", "big bubbler", "200", "splatling", "25"};
+  string pen[] = {"ballpoint splatling", "fizzy bomb", "inkjet", "200", "splatling", "30"};
+  string naut[] = {"nautilus 47", "point sensor", "ink storm", "190", "splatling", "28"};
+  string hydra[] = {"hydra splatling", "autobomb", "booyah bomb", "190", "splatling", "20"};
+  string stamper[] = {"splatana stamper", "burst bomb", "zipcaster", "200", "splatana", "15"};
+  string wiper[] = {"splatana wiper", "torpedo", "ultra stamp", "190", "splatana", "5"};
+  string stringer[] = {"tri-stringer", "toxic mist", "killer wail 5.1", "200", "stringer", "4"};
+  string reeflux[] = {"reef-lux 450", "curling bomb", "tenta missiles", "210", "stringer", "10"};
+  string gal52[] = {".52 gal", "splash wall", "killer wail 5.1", "190", "shooter", "11"};
+  string gal96[] = {".96 gal", "sprinkler", "ink vac", "190", "shooter", "17"};
+  string spraymg[] = {"aerospray mg", "fizzy bomb", "reefslider", "190", "shooter", "5"};
+  string sprayrg[] = {"aerospray rg", "sprinkler", "booyah bomb", "200", "shooter", "18"};
+  string cjr[] = {"custom splattershot jr.", "torpedo", "wave breaker", "190", "shooter", "6"};
+  string forgepro[] = {"forge splattershot pro", "suction bomb", "booyah bomb", "210", "shooter", "20"};
+  string h3[] = {"h-3 nozzlenose", "point sensor", "tacticooler", "190", "shooter", "24"};
+  string jet[] = {"jet squelcher", "line marker", "ink vac", "190", "shooter", "15"};
+  string l3[] = {"l-3 nozzlenose", "curling bomb", "crab tank", "200", "shooter", "13"};
+  string nzap[] = {"n-zap 85", "suction bomb", "tacticooler", "190", "shooter", "6"};
+  string splash[] = {"splash-o-matic", "burst bomb", "crab tank", "200", "shooter", "16"};
+  string splattershot[] = {"splattershot", "suction bomb", "trizooka", "190", "shooter", "2"};
+  string jr[] = {"splattershot jr.", "splat bomb", "big bubbler", "180", "shooter", "1"};
+  string nova[] = {"splattershot nova", "point sensor", "killer wail 5.1", "190", "shooter", "8"};
+  string pro[] = {"splattershot pro", "line marker", "crab tank", "180", "shooter", "9"};
+  srand((unsigned)time(NULL));
+  int i = rand()%2;
+  string weapon, sub, special, pfs, wclass, level;
+  if (i == 0) {
+    weapon = heavy[0];
+    sub = heavy[1];
+    special = heavy[2];
+    pfs = heavy[3];
+    wclass = heavy[4];
+    level = heavy[5];
+    //cout << "\nsub: " << heavy[1] << "\nspecial: " << heavy[2] << "\npoints for special: " << heavy[3] << "\nclass: " << heavy[4] << "\nlevel: " << heavy[5] << "\n";
+  }
+  else {
+    weapon = stringer[0];
+    cout << "\nsub: " << stringer[1] << "\nspecial: " << stringer[2] << "\npoints for special: " << stringer[3] << "\nclass: " << stringer[4] << "\nlevel: " << stringer[5] << "\n";
+  }
+  //string weapon = weapons[i];
+  //cout << "Welcome to Sheldon's Collection, please guess your first weapon. Names are same as they are in inkipedia, with no caps or punctuation ('-' and '.' will still be used, ex: h-3 nozzlenose, n-zap 85, .96 gal) \nlink: https://splatoonwiki.org/wiki/List_of_weapons_in_Splatoon_3\nAlso, it's not angle shooter, it's line marker, angle shooter doesn't exist;
+  //cout << weapon;
+  
+  
+  // for(int a = 0; a < 10; a++) {
+  //   string guess;
+  //   getline(cin, guess);
+  //   if (guess == weapon) {
+  //     cout << "\ncorrect";
+  //     a = 10;
+  //   }
+  //   else {
+  //     cout << "incorrect, guess a different weapon\n";
+  //   }
+  // }
 }
