@@ -6,12 +6,12 @@ int main() {
   {"heavy splatling", "sprinkler", "wave breaker", "200", "splatling", "4", "heavy"}, // 0
   {"mini splatling", "burst bomb", "ultra stamp", "180", "splatling","12", "mini"}, // 1
   {"zink mini splatling", "toxic mist", "big bubbler", "200", "splatling", "25", "zimi"}, // 2
-  {"ballpoint splatling", "fizzy bomb", "inkjet", "190", "splatling", "30", "ballpoint"}, // 3
+  {"ballpoint splatling", "fizzy bomb", "inkjet", "190", "splatling", "30", "pen"}, // 3
   {"nautilus 47", "point sensor", "ink storm", "190", "splatling", "28", "naut"}, // 4
   {"hydra splatling", "autobomb", "booyah bomb", "190", "splatling", "20", "hydra"}, // 5
   {"splatana stamper", "burst bomb", "zipcaster", "200", "splatana", "15", "stamper"}, // 6
   {"splatana wiper", "torpedo", "ultra stamp", "190", "splatana", "5", "wiper"}, // 7
-  {"tri-stringer", "toxic mist", "killer wail 5.1", "190", "stringer", "4", "stringer"}, // 8
+  {"tri-stringer", "toxic mist", "killer wail 5.1", "180", "stringer", "4", "stringer"}, // 8
   {"reef-lux 450", "curling bomb", "tenta missiles", "210", "stringer", "10", "reef-lux"}, // 9
   {"52 gal", "splash wall", "killer wail 5.1", "190", "shooter", "11", "52"}, // 10
   {"96 gal", "sprinkler", "ink vac", "190", "shooter", "17", "96"}, // 11
@@ -24,7 +24,7 @@ int main() {
   {"l-3 nozzlenose", "curling bomb", "crab tank", "200", "shooter", "13", "l-3"}, // 18
   {"n-zap 85", "suction bomb", "tacticooler", "180", "shooter", "6", "zap 85"}, // 19
   {"splash-o-matic", "burst bomb", "crab tank", "200", "shooter", "16", "splash"}, // 20
-  {"splattershot", "suction bomb", "trizooka", "190", "shooter", "2", "splattershot"}, // 21
+  {"splattershot", "suction bomb", "trizooka", "190", "shooter", "2", "shot"}, // 21
   {"splattershot jr", "splat bomb", "big bubbler", "180", "shooter", "1", "jr"}, // 22
   {"splattershot nova", "point sensor", "killer wail 5.1", "190", "shooter", "8", "nova"}, // 23
   {"splattershot pro", "line marker", "crab tank", "180", "shooter", "9", "pro"}, // 24
@@ -33,15 +33,15 @@ int main() {
   {"tentatek splattershot", "splat bomb", "triple inkstrike", "190", "shooter", "10", "t-tek"}, // 27
   {"bamboozler 14 mk i", "autobomb", "killer wail 5.1", "200", "charger", "19", "bamboo"}, // 28
   {"classic squiffer", "point sensor", "big bubbler", "190", "charger", "8", "squiffer"}, // 29
-  {"e-liter 4k", "ink mine", "wave breaker", "190", "charger", "18", "e-liter"}, // 30
+  {"e-liter 4k", "ink mine", "wave breaker", "210", "charger", "18", "e-liter"}, // 30
   {"e-liter 4k scope", "ink mine", "wave breaker", "210", "charger", "27", "e-liter scope"}, // 31
   {"goo tuber", "curling bomb", "tenta missiles", "200", "charger", "25", "goo tuber"}, // 32
-  {"snipewriter 5h", "sprinkler", "tacticooler", "200", "charger", "14", "snipewriter"}, // 33
+  {"snipewriter 5h", "sprinkler", "tacticooler", "200", "charger", "14", "pencil"}, // 33
   {"splat charger", "splat bomb", "ink vac", "200", "charger", "2", "charger"}, // 34
   {"splatterscope", "splat bomb", "ink vac", "200", "charger", "10", "splatterscope"}, // 35
   {"blaster", "autobomb", "big bubbler", "180", "blaster", "3", "blaster"},      // 36
   {"range blaster", "suction bomb", "wave breaker", "200", "blaster", "11", "range"}, // 37
-  {"clash blaster", "splat bomb", "trizooka", "180", "22", "clash"}, // 38
+  {"clash blaster", "splat bomb", "trizooka", "180", "blaster", "22", "clash"}, // 38
   {"luna blaster", "splat bomb", "zipcaster", "180", "blaster", "13", "luna"}, // 39
   {"luna blaster neo", "fizzy bomb", "ultra stamp", "180", "24", "luna neo"}, // 40
   {"rapid blaster", "ink mine", "triple inkstrike", "200", "blaster", "7", "rapid"}, // 41
@@ -70,22 +70,22 @@ int main() {
   {"splat brella", "sprinkler", "triple inkstrike", "200", "brella", "5", "brella"}, // 64
   {"undercover brella", "ink mine", "reefslider", "180", "brella", "18", "undercover"}, // 65
   {"tenta brella", "squid beakon", "ink vac", "190", "brella", "16", "tent"}, // 66
-  {"96 gal deco", "splash wall", "kraken royale", "N/A", "shooter", "N/A", "96 deco"}, // 67
-  {"krak-on roller", "squid beakon", "kraken royale", "N/A", "roller", "N/A", "krak-on"}, // 68
-  {"n-zap 89", "autobomb", "super chump", "N/A", "shooter", "N/A", "zap 89"}, // 69
-  {"clash blaster neo", "curling bomb", "super chump", "N/A", "blaster", "N/A", "clash neo"}, // 70
-  {"z+f splat charger", "splash wall", "triple inkstrike", "N/A", "charger", "N/A", "N/A"}, // 71
-  {"z+f splatterscope", "splash wall", "triple inkstrike", "N/A", "charger", "N/A", "N/A"}, // 72
-  {"tri-slosher nouveau", "fizzy bomb", "tacticooler", "N/A", "slosher", "N/A", "tri nouveau"}, // 73
-  {"sploosh-o-matic neo", "squid beakon", "killer wail 5.1", "N/A", "shooter", "N/A", "neo sploosh"}, // 74
-  {"splash-o-matic neo", "suction bomb", "triple inkstrike", "N/A", "shooter", "N/A", "neo splash"}, // 75
-  {"rapid blaster deco", "torpedo", "inkjet", "N/A", "blaster", "N/A", "rapid deco"}, // 76
-  {"l-3 nozzlenose d", "burst bomb", "ultra stamp", "N/A", "shooter", "N/A", "l-3 d"}, // 77
-  {"custom jet squelcher", "toxic mist", "ink storm", "N/A", "shooter", "N/A", "c-jet"} // 78
+  {"96 gal deco", "splash wall", "kraken royale", "200", "shooter", "23", "96 deco"}, // 67
+  {"krak-on roller", "squid beakon", "kraken royale", "180", "roller", "7", "krak-on"}, // 68
+  {"n-zap 89", "autobomb", "super chump", "180", "shooter", "11", "zap 89"}, // 69
+  {"clash blaster neo", "curling bomb", "super chump", "180", "blaster", "25", "clash neo"}, // 70
+  {"z+f splat charger", "splash wall", "triple inkstrike", "210", "charger", "9", "zf charger"}, // 71
+  {"z+f splatterscope", "splash wall", "triple inkstrike", "210", "charger", "15", "zf scope"}, // 72
+  {"tri-slosher nouveau", "fizzy bomb", "tacticooler", "180", "slosher", "17", "tri nouveau"}, // 73
+  {"sploosh-o-matic neo", "squid beakon", "killer wail 5.1", "180", "shooter", "13", "neo sploosh"}, // 74
+  {"splash-o-matic neo", "suction bomb", "triple inkstrike", "200", "shooter", "21", "neo splash"}, // 75
+  {"rapid blaster deco", "torpedo", "inkjet", "200", "blaster", "10", "rapid deco"}, // 76
+  {"l-3 nozzlenose d", "burst bomb", "ultra stamp", "200", "shooter", "19", "l-3 d"}, // 77
+  {"custom jet squelcher", "toxic mist", "ink storm", "180", "shooter", "20", "c-jet"} // 78
   };
-  cout << "Welcome to Sheldon's Collection, please guess your first weapon. Names are same as they are in inkipedia, with no caps or punctuation ('-' will still be used, ex: h-3 nozzlenose, n-zap 85) \nlink: https://splatoonwiki.org/wiki/List_of_weapons_in_Splatoon_3\nAlso, it's not angle shooter, it's line marker, angle shooter doesn't exist\n\n";
+  cout << "Welcome to Sheldon's Collection, please guess your first weapon. Names are same as they are in this spreadsheet, with no caps \nlink: https://docs.google.com/spreadsheets/d/1AR08rYHu5ElQcCRRKlu7En2zm4KOU9jGJEt3J5pRtF0/edit?usp=sharing\n\n";
   srand((unsigned)time(NULL));
-  int i = rand()%75;
+  int i = rand()%79;
   string weapon, sub, special, pfs, wclass, level, comp, gweap, gsub, gspec, gpfs, gwc, glev, gcomp, yn, yn1, yn2, yn3, yn4, yn5, guess, prompt;
   weapon = weapons[i][0];
   sub = weapons[i][1];
@@ -98,7 +98,7 @@ int main() {
   getline(cin, guess);
   while (!win) {
     int weap = 0;
-    while (weap < 68) {
+    while (weap < 79) {
       string search = weapons[weap][0];
       string csearch = weapons[weap][6];
       if (search == guess || csearch == guess) {
@@ -116,7 +116,7 @@ int main() {
         yn4 = ", incorrect";
         yn5= ", incorrect";
         prompt = "\n\nGuess another weapon";
-        if (guess == weapon) {
+        if (guess == weapon || guess == comp) {
           yn = ", correct";
           prompt = " ";
         }
@@ -139,6 +139,11 @@ int main() {
         break;
       }
       weap++;
+      if (search != guess && weap == 79 || csearch != guess && weap == 79) {
+        cout << "Invalid guess, try again\n\n";
+        weap = 0;
+        getline(cin, guess);
+      }
     }
     if (guess == weapon || gcomp == comp) {
       win = true;
@@ -146,6 +151,164 @@ int main() {
     else {
       getline(cin, guess);
       }
+    };
+    cout << "\nGood job, restart the program to play again";
   }
-  cout << "\nGood job, restart the program to play again";
-}
+  
+#include <iostream>
+using namespace std;
+
+int main() {
+  string weapons[][7] = {
+  {"heavy splatling", "sprinkler", "wave breaker", "200", "splatling", "4", "heavy"}, // 0
+  {"mini splatling", "burst bomb", "ultra stamp", "180", "splatling","12", "mini"}, // 1
+  {"zink mini splatling", "toxic mist", "big bubbler", "200", "splatling", "25", "zimi"}, // 2
+  {"ballpoint splatling", "fizzy bomb", "inkjet", "190", "splatling", "30", "pen"}, // 3
+  {"nautilus 47", "point sensor", "ink storm", "190", "splatling", "28", "naut"}, // 4
+  {"hydra splatling", "autobomb", "booyah bomb", "190", "splatling", "20", "hydra"}, // 5
+  {"splatana stamper", "burst bomb", "zipcaster", "200", "splatana", "15", "stamper"}, // 6
+  {"splatana wiper", "torpedo", "ultra stamp", "190", "splatana", "5", "wiper"}, // 7
+  {"tri-stringer", "toxic mist", "killer wail 5.1", "180", "stringer", "4", "stringer"}, // 8
+  {"reef-lux 450", "curling bomb", "tenta missiles", "210", "stringer", "10", "reef-lux"}, // 9
+  {"52 gal", "splash wall", "killer wail 5.1", "190", "shooter", "11", "52"}, // 10
+  {"96 gal", "sprinkler", "ink vac", "190", "shooter", "17", "96"}, // 11
+  {"aerospray mg", "fizzy bomb", "reefslider", "180", "shooter", "5", "aerospray"}, // 12
+  {"aerospray rg", "sprinkler", "booyah bomb", "200", "shooter", "18", "gold aerospray"}, // 13
+  {"custom splattershot jr", "torpedo", "wave breaker", "190", "shooter", "6", "c-jr"}, // 14
+  {"forge splattershot pro", "suction bomb", "booyah bomb", "210", "shooter", "20", "forge pro"}, // 15
+  {"h-3 nozzlenose", "point sensor", "tacticooler", "190", "shooter", "24", "h-3"}, // 16
+  {"jet squelcher", "line marker", "ink vac", "190", "shooter", "15", "jet"}, // 17
+  {"l-3 nozzlenose", "curling bomb", "crab tank", "200", "shooter", "13", "l-3"}, // 18
+  {"n-zap 85", "suction bomb", "tacticooler", "180", "shooter", "6", "zap 85"}, // 19
+  {"splash-o-matic", "burst bomb", "crab tank", "200", "shooter", "16", "splash"}, // 20
+  {"splattershot", "suction bomb", "trizooka", "190", "shooter", "2", "shot"}, // 21
+  {"splattershot jr", "splat bomb", "big bubbler", "180", "shooter", "1", "jr"}, // 22
+  {"splattershot nova", "point sensor", "killer wail 5.1", "190", "shooter", "8", "nova"}, // 23
+  {"splattershot pro", "line marker", "crab tank", "180", "shooter", "9", "pro"}, // 24
+  {"sploosh-o-matic", "curling bomb", "ultra stamp", "180", "shooter", "9", "sploosh"}, // 25
+  {"squeezer", "splash wall", "trizooka", "200", "shooter", "19", "squeezer"}, // 26
+  {"tentatek splattershot", "splat bomb", "triple inkstrike", "190", "shooter", "10", "t-tek"}, // 27
+  {"bamboozler 14 mk i", "autobomb", "killer wail 5.1", "200", "charger", "19", "bamboo"}, // 28
+  {"classic squiffer", "point sensor", "big bubbler", "190", "charger", "8", "squiffer"}, // 29
+  {"e-liter 4k", "ink mine", "wave breaker", "210", "charger", "18", "e-liter"}, // 30
+  {"e-liter 4k scope", "ink mine", "wave breaker", "210", "charger", "27", "e-liter scope"}, // 31
+  {"goo tuber", "curling bomb", "tenta missiles", "200", "charger", "25", "goo tuber"}, // 32
+  {"snipewriter 5h", "sprinkler", "tacticooler", "200", "charger", "14", "pencil"}, // 33
+  {"splat charger", "splat bomb", "ink vac", "200", "charger", "2", "charger"}, // 34
+  {"splatterscope", "splat bomb", "ink vac", "200", "charger", "10", "splatterscope"}, // 35
+  {"blaster", "autobomb", "big bubbler", "180", "blaster", "3", "blaster"},      // 36
+  {"range blaster", "suction bomb", "wave breaker", "200", "blaster", "11", "range"}, // 37
+  {"clash blaster", "splat bomb", "trizooka", "180", "blaster", "22", "clash"}, // 38
+  {"luna blaster", "splat bomb", "zipcaster", "180", "blaster", "13", "luna"}, // 39
+  {"luna blaster neo", "fizzy bomb", "ultra stamp", "180", "24", "luna neo"}, // 40
+  {"rapid blaster", "ink mine", "triple inkstrike", "200", "blaster", "7", "rapid"}, // 41
+  {"rapid blaster pro", "toxic mist", "ink vac", "180", "blaster", "26", "rapid pro"}, // 42
+  {"splat roller", "curling bomb", "big bubbler", "180", "roller", "2", "roller"}, // 43
+  {"big swig roller", "splash wall", "ink vac", "200", "roller", "16", "big swig"}, // 44
+  {"carbon roller", "autobomb", "zipcaster", "180", "roller", "6", "carbon"}, // 45
+  {"carbon roller deco", "burst bomb", "trizooka", "200", "roller", "22", "carbon deco"}, // 46
+  {"dynamo roller", "sprinkler", "tacticooler", "190", "roller", "12", "dynamo"}, // 47
+  {"flingza roller", "ink mine", "tenta missiles", "210", "roller", "20", "flingza"}, // 48
+  {"inkbrush", "splat bomb", "killer wail 5.1", "180", "brush", "7", "brush"}, // 49
+  {"inkbrush nouveau", "ink mine", "ultra stamp", "180", "brush", "15", "brush nouveau"}, // 50
+  {"octobrush", "suction bomb", "zipcaster", "200", "brush", "4", "octobrush"}, // 51
+  {"splat dualies", "suction bomb", "crab tank", "190", "dualie", "3", "dualies"}, // 52
+  {"dualie squelchers", "splat bomb", "wave breaker", "200", "dualie", "8", "squelchers"}, // 53
+  {"dapple dualies", "squid beakon", "tacticooler", "180", "dualie", "14", "dapples"}, // 54
+  {"dapple dualies nouveau", "torpedo", "reefslider", "190", "dualie", "26", "dapples nouveau"}, // 55
+  {"glooga dualies", "splash wall", "booyah bomb", "180", "dualie", "21", "gloogas"}, // 56
+  {"dark tetra dualies", "autobomb", "reefslider", "200", "dualie", "17", "tetra"}, // 57
+  {"slosher", "splat bomb", "triple inkstrike", "200", "slosher", "3", "slosher"}, // 58
+  {"tri-slosher", "toxic mist", "inkjet", "180", "slosher", "10", "tri"}, // 59
+  {"slosher deco", "line marker", "zipcaster", "180", "slosher", "12", "slosher deco"}, // 60
+  {"sloshing machine", "fizzy bomb", "booyah bomb", "220", "slosher", "16", "machine"}, // 61
+  {"explosher", "point sensor", "ink storm", "200", "slosher", "29", "explo"}, // 62
+  {"bloblobber", "sprinkler", "ink storm", "190", "slosher", "19", "blob"}, // 63
+  {"splat brella", "sprinkler", "triple inkstrike", "200", "brella", "5", "brella"}, // 64
+  {"undercover brella", "ink mine", "reefslider", "180", "brella", "18", "undercover"}, // 65
+  {"tenta brella", "squid beakon", "ink vac", "190", "brella", "16", "tent"}, // 66
+  {"96 gal deco", "splash wall", "kraken royale", "200", "shooter", "23", "96 deco"}, // 67
+  {"krak-on roller", "squid beakon", "kraken royale", "180", "roller", "7", "krak-on"}, // 68
+  {"n-zap 89", "autobomb", "super chump", "180", "shooter", "11", "zap 89"}, // 69
+  {"clash blaster neo", "curling bomb", "super chump", "180", "blaster", "25", "clash neo"}, // 70
+  {"z+f splat charger", "splash wall", "triple inkstrike", "210", "charger", "9", "zf charger"}, // 71
+  {"z+f splatterscope", "splash wall", "triple inkstrike", "210", "charger", "15", "zf scope"}, // 72
+  {"tri-slosher nouveau", "fizzy bomb", "tacticooler", "180", "slosher", "17", "tri nouveau"}, // 73
+  {"sploosh-o-matic neo", "squid beakon", "killer wail 5.1", "180", "shooter", "13", "neo sploosh"}, // 74
+  {"splash-o-matic neo", "suction bomb", "triple inkstrike", "200", "shooter", "21", "neo splash"}, // 75
+  {"rapid blaster deco", "torpedo", "inkjet", "200", "blaster", "10", "rapid deco"}, // 76
+  {"l-3 nozzlenose d", "burst bomb", "ultra stamp", "200", "shooter", "19", "l-3 d"}, // 77
+  {"custom jet squelcher", "toxic mist", "ink storm", "180", "shooter", "20", "c-jet"} // 78
+  };
+  cout << "Welcome to Sheldon's Collection, please guess your first weapon. Names are same as they are in this spreadsheet, with no caps \nlink: https://docs.google.com/spreadsheets/d/1AR08rYHu5ElQcCRRKlu7En2zm4KOU9jGJEt3J5pRtF0/edit?usp=sharing\n\n";
+  srand((unsigned)time(NULL));
+  int i = rand()%79;
+  string weapon, sub, special, pfs, wclass, level, comp, gweap, gsub, gspec, gpfs, gwc, glev, gcomp, yn, yn1, yn2, yn3, yn4, yn5, guess, prompt;
+  weapon = weapons[i][0];
+  sub = weapons[i][1];
+  special = weapons[i][2];
+  pfs = weapons[i][3];
+  wclass = weapons[i][4];
+  level = weapons[i][5];
+  comp = weapons[i][6];
+  bool win = false;
+  getline(cin, guess);
+  while (!win) {
+    int weap = 0;
+    while (weap < 79) {
+      string search = weapons[weap][0];
+      string csearch = weapons[weap][6];
+      if (search == guess || csearch == guess) {
+        gweap = weapons[weap][0];
+        gsub = weapons[weap][1];
+        gspec = weapons[weap][2];
+        gpfs = weapons[weap][3];
+        gwc = weapons[weap][4];
+        glev = weapons[weap][5];
+        gcomp = weapons[weap][6];
+        yn = ", incorrect";
+        yn1 = ", incorrect";
+        yn2 = ", incorrect";
+        yn3 = ", incorrect";
+        yn4 = ", incorrect";
+        yn5= ", incorrect";
+        prompt = "\n\nGuess another weapon";
+        if (guess == weapon || guess == comp) {
+          yn = ", correct";
+          prompt = " ";
+        }
+        if (gsub == sub) {
+          yn1 = ", correct";
+        }
+        if (gspec == special) {
+          yn2 = ", correct";
+        }
+        if (gpfs == pfs) {
+          yn3 = ", correct";
+        }
+        if (gwc == wclass) {
+          yn4 = ", correct";
+        }
+        if (glev == level) {
+          yn5 = ", correct";
+        }
+        cout << "\nguess: " << gweap << yn << "\nsub: " << gsub << yn1 << "\nspecial: " << gspec << yn2 << "\npoints for special: " << gpfs << yn3 << "\nclass: " << gwc << yn4 << "\nlevel: " << glev << yn5 << prompt << "\n";
+        break;
+      }
+      weap++;
+      if (search != guess && weap == 79 || csearch != guess && weap == 79) {
+        cout << "Invalid guess, try again\n\n";
+        weap = 0;
+        getline(cin, guess);
+      }
+    }
+    if (guess == weapon || gcomp == comp) {
+      win = true;
+    }
+    else {
+      getline(cin, guess);
+      }
+    };
+    cout << "\nGood job, restart the program to play again";
+  }
+  
