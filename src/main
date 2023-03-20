@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+  // 2 dimensional array storing all the data needed for the weapons
   string weapons[][7] = {
   {"heavy splatling", "sprinkler", "wave breaker", "200", "splatling", "4", "heavy"}, // 0
   {"mini splatling", "burst bomb", "ultra stamp", "180", "splatling","12", "mini"}, // 1
@@ -85,6 +86,7 @@ int main() {
   };
   cout << "Welcome to Sheldon's Collection, please guess your first weapon. Names are same as they are in this spreadsheet, with no caps \nlink: https://docs.google.com/spreadsheets/d/1AR08rYHu5ElQcCRRKlu7En2zm4KOU9jGJEt3J5pRtF0/edit?usp=sharing\n\n";
   srand((unsigned)time(NULL));
+  // chooses a random weapon
   int i = rand()%79;
   string weapon, sub, special, pfs, wclass, level, comp, gweap, gsub, gspec, gpfs, gwc, glev, gcomp, yn, yn1, yn2, yn3, yn4, yn5, guess, prompt;
   weapon = weapons[i][0];
@@ -98,6 +100,7 @@ int main() {
   getline(cin, guess);
   while (!win) {
     int weap = 0;
+    // looks for the weapon in the array, if found but incorrect, propmts again, if correct, ends the program with a congrats
     while (weap < 79) {
       string search = weapons[weap][0];
       string csearch = weapons[weap][6];
