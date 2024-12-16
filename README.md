@@ -1,4 +1,7 @@
 #Programming Portfolio | Ethan Mabey | ethansmabey@gmail.com
+###Certifications
+[Ethan Mabey_Game Development Fundamentals_12162024.pdf](https://github.com/user-attachments/files/18152806/Ethan.Mabey_Game.Development.Fundamentals_12162024.pdf)
+
 
 ## Sheldon's Collection
 Built sort of like wordle, but more like hunters journle (link to that: https://hunters-journle.web.app/game)
@@ -11,3 +14,7 @@ A Roguelike space themed game that I helped work on in Game Dev 1 in 2024, I was
 <img width="313" alt="Screen Shot 2023-01-09 at 7 50 10 AM" src="[https://user-images.githubusercontent.com/89100747/211336351-13f9ea5f-24a1-4240-b60e-3106f1b2dc32.png](https://github.com/user-attachments/assets/cee0a77a-a42e-46c0-b8c6-0c17c88de4b1)">
 Zip File:
 [GameDevTeam2-main.zip](https://github.com/user-attachments/files/18152758/GameDevTeam2-main.zip)
+
+## Shape Game
+Run around collecting golden eggs, just a small starter project I did at the start of Game Dev 1
+[ShapeGame.zip](https://github.com/user-attachments/files/18152818/ShapeGame.zip)
