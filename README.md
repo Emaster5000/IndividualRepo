@@ -6,3 +6,5 @@ Built sort of like wordle, but more like hunters journle (link to that: https://
 
 # AstroCats
 A Roguelike space themed game that I helped work on in Game Dev 1 in 2024
+<img width="313" alt="Screen Shot 2023-01-09 at 7 50 10 AM" src="[https://user-images.githubusercontent.com/89100747/211336351-13f9ea5f-24a1-4240-b60e-3106f1b2dc32.png](https://github.com/user-attachments/assets/cee0a77a-a42e-46c0-b8c6-0c17c88de4b1)">
+
